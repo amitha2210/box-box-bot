@@ -1,0 +1,6 @@
+{
+    "name": "@f1-telemetry/api-client",
+    "private": true,
+    "type": "module",
+    "main": "src/index.js"
+  }
