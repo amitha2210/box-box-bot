@@ -1,0 +1,6 @@
+{
+    "name": "@box-box-bot/types",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module"
+  }

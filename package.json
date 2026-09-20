@@ -1,19 +1,13 @@
 {
-    "name": "f1-telemetry",
+    "name": "box-box-bot",
     "private": true,
+    "workspaces": [
+      "apps/*",
+      "packages/*",
+      "services/*"
+    ],
     "scripts": {
-        "dev:web": "pnpm --filter web dev",
-        "dev:ingestor": "npm run dev --workspace services/telemetry-ingestor",
-        "build": "pnpm -r build",
-        "test": "pnpm -r test",
-        "typecheck": "pnpm -r typecheck"
-    },
-    "devDependencies": {
-        "typescript": "^5.0.0"
-    },
-    "dependencies": {
-        "react": "^19.3.0",
-        "react-dom": "^19.3.0",
-        "web": "^0.0.2"
+      "dev:web": "npm run dev --workspace=apps/web",
+      "dev:ingestor": "npm run dev --workspace=services/telemetry-ingestor"
     }
-}
+  }

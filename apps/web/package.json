@@ -8,7 +8,9 @@
     "dependencies": {
         "react": "^19.3.0",
         "react-dom": "^19.3.0",
-        "recharts": "^2.15.0"
+        "recharts": "^2.15.0",
+        "@box-box-bot/api-client": "*",
+        "@box-box-bot/types": "*"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.7.0",

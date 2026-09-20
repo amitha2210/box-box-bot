@@ -1,5 +1,5 @@
 {
-    "name": "@f1-telemetry/api-client",
+    "name": "@box-box-bot/api-client",
     "private": true,
     "type": "module",
     "main": "src/index.js"
