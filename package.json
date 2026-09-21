@@ -2,12 +2,16 @@
     "name": "box-box-bot",
     "private": true,
     "workspaces": [
-      "apps/*",
-      "packages/*",
-      "services/*"
+        "apps/*",
+        "packages/*",
+        "services/*"
     ],
     "scripts": {
-      "dev:web": "npm run dev --workspace=apps/web",
-      "dev:ingestor": "npm run dev --workspace=services/telemetry-ingestor"
+        "dev:web": "npm run dev --workspace=apps/web",
+        "dev:ingestor": "npm run dev --workspace=services/telemetry-ingestor"
+    },
+    "dependencies": {
+        "cors": "^2.8.6",
+        "express": "^5.2.1"
     }
-  }
+}
